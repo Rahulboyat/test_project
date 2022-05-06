@@ -335,28 +335,19 @@ ul .drop_down li:hover .fas {
 
 }
 
-
-
-
-
 .about_page {
     width: 100%;
     background-color: aliceblue;
 }
-
-
 .about_page .img {
     border-radius: 50px;
     max-width: 400px;
 
 }
 
-
-
 .content h {
     font-size: 25px;
     font-weight: 500;
-
 }
 
 .content p {
@@ -370,6 +361,51 @@ ul .drop_down li:hover .fas {
 }
 
 
+
+/* -------clint section style------- */
+
+
+
+
+
+.clint_section {
+    background-color: #81ecec;
+    
+
+}
+
+.clint_section .row{
+    padding: 50px 0px;
+}
+
+.clint_section .clint_box .clint_icon {
+    font-size: 42px;
+    color: orange
+}
+
+.clint_section .clint_box {
+    text-align: center;
+    padding: 70px auto;
+    background-color: rgb(0, 0, 0, 0.5);
+    line-height: 1.3;
+    padding-top: 23px;
+    padding-bottom: 23px;
+  /* margin: 2px auto; */
+
+}
+
+.clint_section .clint_box h {
+    font-size: 52px;
+    font-family: Georgia;
+    color: orange
+}
+
+.clint_section .clint_box p {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0px;
+    color: white;
+}
 
 
 /* ------services page style------ */

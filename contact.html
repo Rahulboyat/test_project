@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>drop down</title>
+    </head>
+
+<body>
+    <navbar class="nav">
+
+        <span class="logo_container">
+            <a href="index.html" class="logo">
+                APPER
+            </a>
+        </span>
+
+        <ul class="menu  d-md-flex ">
+            <li><a href="index.html" class="trigger">home</a></li>
+            <li><a href="about.html" class="trigger">about us</a></li>
+            <li><a href="service.html" class="trigger">services <i
+                        class="fas fa-caret-down"></i></a>
+                <div class="drop_down">
+                    <ul>
+                        <li><a href="#">database</a></li>
+                        <li><a href="#">marketing</a></li>
+                        <li><a href="#">games <i class="fas fa-caret-down"></i></a>
+                            <div class="drop_down1">
+                                <ul>
+                                    <li><a href="#">mobile game</a></li>
+                                    <li><a href="#">des game</a></li>
+                                    <li><a href="#">web games</a></li>
+                                    <li><a href="#">ios games></li>
+                                </ul>
+
+                            </div>
+
+                        </li>
+                        <li><a href="#"> ios games</li>
+                        <li><a href="#">unity</a></li>
+                    </ul>
+
+                </div>
+            </li>
+            <li><a href="file:///C:/Users/Rahul/Desktop/all%20html%20files/contact.html" class="trigger">contact</a></li>
+            <li><a href="#"> portfolio</a></li>
+        </ul>
+
+        <span class="toggle_button d-md-none "><i class="fas fa-bars"></i></span>
+
+    </navbar>
+
+
+
+
+    <div class="contact_banner">
+        <h>CONTACT US </h>
+
+    </div>
+    <section class="contact_page container mt-5 pt-4 " >
+
+        
+
+        <div class="hero">
+            <form>
+                <div class="input_group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name"> User Name <i class="far fa-user"></i></label>
+                </div>
+
+                <div class="input_group">
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="name"> Phone <i class="fas fa-phone-alt"></i> </label>
+                </div>
+
+                <div class="input_group">
+                    <input type="email" id="email_id" name="email" required>
+                    <label for="name"> Email Id <i class="fas fa-phone-alt"></i> </label>
+                </div>
+                <div class="input_group">
+                    <textarea id="message" rows="5  " required></textarea>
+                    <label for="name"> Your Message <i class="far fa-comment-alt"></i> </label>
+                </div>
+
+                <button class="btn">Send me</button>
+            </form>
+        </div>
+    </section>
+
+
+ <section class="footer_container mt-4" id="footer_container">
+        <div class="footer_page container" id="footer_page">
+
+
+
+            <div class="row ">
+                <div class="col-md-3">
+                    <div class="footer_content">
+                        <a href="#" class="logo">APPER</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus officia numquam non animi
+                            voluptas eveniet omnis minus iste magni, voluptatem quidem laboriosam distinctio?</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="footer_content">
+                        <h>menu</h>
+                        <ul class="p-0">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#"> contact</a></li>
+                            <li><a href="#">feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="footer_content">
+                        <h>services</h>
+                        <ul class="p-0">
+                            <li><a href="#"> database</a></li>
+                            <li><a href="#">seo</a></li>
+                            <li><a href="#">aws server</a></li>
+                            <li><a href="#">other</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="footer_content">
+                        <input type="search" placeholder="SEARCH ">
+                        <div class="footer_icon">
+                            <span><a href=""><i class="fab fa-facebook-square"></i></a></span>
+                            <span><i class="fab fa-google-plus-square"></i></span>
+                            <span><i class="fab fa-twitter-square"></i></span>
+                            <span><i class="fab fa-youtube"></i></span>
+                            <span><i class="fab fa-telegram"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bottom_footer">
+        <p>@copyright 2022</p>
+
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $(".nav").toggleClass('background_color', $(this).scrollTop() > 300);
+            })
+        })
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".toggle_button").click(function () {
+                $(".menu").toggleClass("toggle_class")
+
+            })
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".trigger").click(function () {
+                $(".toggle_button").trigger("click");
+            });
+        });
+    </script>
+
+</body>
+</html>

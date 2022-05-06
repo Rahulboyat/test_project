@@ -284,12 +284,7 @@ ul .drop_down li:hover .fas {
         width: 100%;
         height: 250px;
     }
-
-
-
-
 }
-
 
 .text .auto-type {
     margin-left: 10px;
@@ -306,11 +301,6 @@ ul .drop_down li:hover .fas {
     color: white;
     font-size: 40px;
 }
-
-
-
-
-
 
 /* --------about page style------- */
 
@@ -364,14 +354,9 @@ ul .drop_down li:hover .fas {
 
 /* -------clint section style------- */
 
-
-
-
-
 .clint_section {
     background-color: #81ecec;
     
-
 }
 
 .clint_section .row{
@@ -396,7 +381,7 @@ ul .drop_down li:hover .fas {
 
 .clint_section .clint_box h {
     font-size: 52px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: orange
 }
 

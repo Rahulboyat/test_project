@@ -396,7 +396,7 @@ ul .drop_down li:hover .fas {
 
 .clint_section .clint_box h {
     font-size: 52px;
-    font-family: Georgia;
+   font-family: Georgia, 'Times New Roman', Times, serif;
     color: orange
 }
 

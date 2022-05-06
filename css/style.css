@@ -66,6 +66,11 @@
     color: crimson;
 }
 
+.logo_container .logo:hover{
+    color:orange;
+}
+    
+
 
 
 .menu {
